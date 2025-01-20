@@ -25,18 +25,6 @@ public class MethodeFunctions
 	// bestand
 	return Resultaat;
     }
-
-    public String KleurGenerator(String text)
-    {
-	// Zet de text naar niks
-	text = "";
-	// Zet de text van "Resultaat" naar de Instructies van de Pin
-	String Resultaat = "Je krijgt zwarte pinnen als je het goed hebt geraden. Je krijgt 5 punten als je een zwarte pin hebt!\nJe krijgt Witte pinnen als je de kleur goed hebt geraden maar niet op de goede plek!";
-	// Resultaat wordt returned zodat we die kunnen gebruiken in het mastermind
-	// bestand
-	return Resultaat;
-    }
-    
     public String RuimteMaker(String text)
     {
 	text = "";
