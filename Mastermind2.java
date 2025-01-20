@@ -1,4 +1,4 @@
-package MastermindPackage;
+package MastermindPackage.Mastermind;
 
 //ArrayList Import
 import java.util.ArrayList;
