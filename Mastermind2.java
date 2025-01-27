@@ -74,7 +74,6 @@ public class Mastermind2
 	    while (RepeatGame == true)
 	    {
 		RepeatGame = false;
-		System.out.println(ComputerKleuren);
 		// De spel regels worden uitgelegt aan de speler
 		System.out.println(Instructie);
 		if (Rondes < 10)
@@ -149,7 +148,7 @@ public class Mastermind2
 		for (int i = 0; i < 5; i++)
 		{
 		    SpelerKleuren.add(sc.next());
-		}
+		}	
 		// Naar 0 gezet zodat elke ronde nieuwe zwarte pinnen
 		ZwartePinnen = 0;
 		for (int i = 0; i < 5; i++)
